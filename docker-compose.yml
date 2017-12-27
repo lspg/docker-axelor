@@ -9,7 +9,7 @@ postgresql:
     - /var/lib/postgresql
 
 axelor:
-  image: oriaks/axelor:latest
+  image: lspg/axelor:latest
   expose:
     - 80/tcp
     - 443/tcp
